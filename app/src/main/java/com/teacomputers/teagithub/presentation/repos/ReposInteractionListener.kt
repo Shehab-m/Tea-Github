@@ -1,3 +1,5 @@
 package com.teacomputers.teagithub.presentation.repos
 
-interface ReposInteractionListener
+interface ReposInteractionListener {
+    fun onClickTryAgain()
+}
