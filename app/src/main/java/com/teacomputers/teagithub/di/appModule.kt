@@ -1,5 +1,7 @@
 package com.teacomputers.teagithub.di
 
+import com.teacomputers.teagithub.data.repository.GithubRepositoryImpl
+import com.teacomputers.teagithub.domain.repository.GithubRepository
 import com.teacomputers.teagithub.presentation.auth.AuthViewModel
 import com.teacomputers.teagithub.presentation.manager.OAuthManager
 import com.teacomputers.teagithub.presentation.manager.OAuthManagerImpl
@@ -12,5 +14,8 @@ val appModule = module {
     }
     single<OAuthManager> {
         OAuthManagerImpl()
+    }
+    single<GithubRepository> {
+        GithubRepositoryImpl(get())
     }
 }
