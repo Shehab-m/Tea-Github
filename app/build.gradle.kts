@@ -25,6 +25,7 @@ android {
         }
 
         buildConfigField("String", "CLIENT_SECRET", localProps.getProperty("CLIENT_SECRET"))
+        buildConfigField("String", "CLIENT_ID", localProps.getProperty("CLIENT_ID"))
     }
 
     buildTypes {

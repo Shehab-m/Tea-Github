@@ -3,13 +3,15 @@ package com.teacomputers.teagithub.presentation.manager
 import android.content.Intent
 import android.net.Uri
 import android.util.Log
+import com.teacomputers.teagithub.BuildConfig
 
 class OAuthManagerImpl: OAuthManager {
 
     override fun getOAuthIntent(): Intent {
+        val clientId = BuildConfig.CLIENT_ID
         val githubAuthUrl = buildString {
             append("https://github.com/login/oauth/authorize")
-            append("?client_id=$CLIENT_ID")
+            append("?client_id=${clientId}")
             append("&scope=user,repo")
             append("&redirect_uri=$REDIRECT_URI")
         }
@@ -28,7 +30,6 @@ class OAuthManagerImpl: OAuthManager {
     }
 
     companion object {
-        private const val CLIENT_ID = "Ov23lii4TTZ2ByTwNyzo"
         private const val REDIRECT_URI = "teagithub://callback"
     }
 }
