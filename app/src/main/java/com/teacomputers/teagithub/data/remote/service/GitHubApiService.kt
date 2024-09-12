@@ -11,10 +11,10 @@ interface GitHubApiService {
 
     @FormUrlEncoded
     @POST("login/oauth/access_token")
-    fun getAccessToken(
+    suspend fun getAccessToken(
         @Field("client_id") clientId: String,
+        @Field("code") code: String,
         @Field("client_secret") clientSecret: String = BuildConfig.CLIENT_SECRET,
-        @Field("code") code: String
     ): Response<AccessTokenDto>
 
 }
