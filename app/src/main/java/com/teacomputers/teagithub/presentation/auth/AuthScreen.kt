@@ -15,6 +15,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
@@ -30,12 +31,13 @@ import org.koin.androidx.compose.getViewModel
 @Composable
 fun AuthScreen(viewModel: AuthViewModel = getViewModel<AuthViewModel>()) {
     val state by viewModel.state.collectAsState()
+    val context = LocalContext.current
     EventHandler(viewModel.effect) { effect, navController ->
         when(effect) {
-
-            else -> {}
+            is AuthUiEffect.HandleOauthIntent -> {
+                context.startActivity(effect.intent)
+            }
         }
-
     }
     AuthContent(state, viewModel)
 }
