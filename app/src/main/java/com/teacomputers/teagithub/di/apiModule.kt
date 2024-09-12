@@ -1,5 +1,6 @@
 package com.teacomputers.teagithub.di
 
+import com.teacomputers.teagithub.data.remote.RequestInterceptor
 import com.teacomputers.teagithub.data.remote.service.GitHubApiService
 import com.teacomputers.teagithub.data.remote.utils.Constants
 import okhttp3.OkHttpClient
@@ -29,6 +30,7 @@ fun provideOkHttpClient(
     return OkHttpClient
         .Builder()
         .addInterceptor(loggingInterceptor)
+        .addInterceptor(RequestInterceptor())
         .build()
 }
 
