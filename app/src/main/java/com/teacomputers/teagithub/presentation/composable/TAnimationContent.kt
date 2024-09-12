@@ -21,7 +21,7 @@ fun TAnimationContent(
     modifier: Modifier = Modifier,
     state: Boolean,
     topBar: @Composable () -> Unit = {},
-    loadingContent: @Composable () -> Unit,
+    loadingContent: @Composable () -> Unit = {},
     isError: Boolean = false,
     onClickTryAgain: () -> Unit = {},
     backgroundColor: Color = MaterialTheme.colorScheme.background,
