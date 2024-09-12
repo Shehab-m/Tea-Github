@@ -1,14 +1,33 @@
 package com.teacomputers.teagithub.data.repository
 
 import android.util.Log
+import com.teacomputers.teagithub.data.local.AuthPreferences
 import com.teacomputers.teagithub.data.remote.service.GitHubApiService
+import com.teacomputers.teagithub.data.repository.mapper.toEntity
+import com.teacomputers.teagithub.domain.model.Repo
 import com.teacomputers.teagithub.domain.repository.GithubRepository
 import retrofit2.Response
 
-class GithubRepositoryImpl(private val apiService: GitHubApiService): GithubRepository {
+class GithubRepositoryImpl(
+    private val apiService: GitHubApiService,
+    private val authPreferences: AuthPreferences,
+) : GithubRepository {
 
     override suspend fun getAccessToken(code: String): String {
-        return wrapResponse{apiService.getAccessToken(code)}.accessToken ?: ""
+        return wrapResponse { apiService.getAccessToken(code) }.accessToken ?: ""
+    }
+
+    override suspend fun getAccessTokenLocal(): String? {
+        return authPreferences.getAccessToken()
+    }
+
+    override suspend fun saveAccessTokenLocal(token: String) {
+        authPreferences.saveAccessToken(token)
+    }
+
+    override suspend fun getRepos(token: String): List<Repo> {
+        val bearerToken = "Bearer $token"
+        return wrapResponse { apiService.getRepos(bearerToken) }.map { it.toEntity() }
     }
 
     private suspend fun <T> wrapResponse(
