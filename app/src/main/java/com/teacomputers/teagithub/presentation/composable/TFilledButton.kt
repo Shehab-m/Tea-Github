@@ -7,6 +7,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.Preview
 import com.teacomputers.teagithub.ui.theme.TeaGithubTheme
 
@@ -17,6 +18,7 @@ fun TFilledButton(
     onClick: () -> Unit,
     contentColor: Color = MaterialTheme.colorScheme.onPrimary,
     background: Color = MaterialTheme.colorScheme.primary,
+    textStyle: TextStyle = MaterialTheme.typography.bodyLarge
 ) {
     Button(
         modifier = modifier,
@@ -28,8 +30,8 @@ fun TFilledButton(
     ) {
         Text(
             text = label,
-            style = MaterialTheme.typography.bodyMedium,
-            color = contentColor
+            style = textStyle,
+            color = contentColor,
         )
     }
 }

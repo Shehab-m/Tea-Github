@@ -33,7 +33,7 @@ fun TTopBar(
     ) {
         Text(
             text = title,
-            style = MaterialTheme.typography.titleMedium,
+            style = MaterialTheme.typography.titleLarge,
             color = titleColor,
             modifier = Modifier.align(Alignment.Center)
         )
