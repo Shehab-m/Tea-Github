@@ -2,4 +2,10 @@
     <string name="app_name">Tea Github</string>
     <string name="login">Click here to login</string>
     <string name="welcome_to_github">Welcome To Github!</string>
+    <string name="my_repositories">My Repositories</string>
+    <string name="github_icon">Github icon</string>
+    <string name="language">Language: %1$s</string>
+    <string name="branch">Branch: %1$s</string>
+    <string name="created_at">Created At: %1$s</string>
+    <string name="opening_github_for_login">Opening GitHub for login</string>
 </resources>
