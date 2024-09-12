@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Tea Github</string>
+    <string name="login">Click here to login</string>
+    <string name="welcome_to_github">Welcome To Github!</string>
 </resources>
