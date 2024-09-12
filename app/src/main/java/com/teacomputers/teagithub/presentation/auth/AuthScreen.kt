@@ -1,5 +1,7 @@
 package com.teacomputers.teagithub.presentation.auth
 
+import android.widget.Toast
+import androidx.activity.ComponentActivity
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -25,20 +27,38 @@ import com.teacomputers.teagithub.presentation.base.EventHandler
 import com.teacomputers.teagithub.presentation.composable.Loading
 import com.teacomputers.teagithub.presentation.composable.TAnimationContent
 import com.teacomputers.teagithub.presentation.composable.TFilledButton
+import com.teacomputers.teagithub.presentation.repos.navigateToReposScreen
 import com.teacomputers.teagithub.ui.theme.TeaGithubTheme
-import org.koin.androidx.compose.getViewModel
+import org.koin.androidx.compose.koinViewModel
 
 @Composable
-fun AuthScreen(viewModel: AuthViewModel = getViewModel<AuthViewModel>()) {
+fun AuthScreen() {
+    val viewModel: AuthViewModel = koinViewModel(
+        viewModelStoreOwner = LocalContext.current as ComponentActivity
+    )
     val state by viewModel.state.collectAsState()
     val context = LocalContext.current
     EventHandler(viewModel.effect) { effect, navController ->
-        when(effect) {
+        when (effect) {
             is AuthUiEffect.HandleOauthIntent -> {
+                Toast.makeText(
+                    context,
+                    context.getString(R.string.opening_github_for_login),
+                    Toast.LENGTH_LONG
+                ).show()
                 context.startActivity(effect.intent)
+            }
+
+            is AuthUiEffect.SendToast -> {
+                Toast.makeText(context, effect.message, Toast.LENGTH_LONG).show()
+            }
+
+            is AuthUiEffect.NavigateToReposScreen -> {
+                navController.navigateToReposScreen(effect.accessToken)
             }
         }
     }
+
     AuthContent(state, viewModel)
 }
 
@@ -83,7 +103,6 @@ fun AuthContent(
                 }
             },
             loadingContent = { Loading(state = state.isLoading) },
-            isError = state.isError,
         )
     }
 }
