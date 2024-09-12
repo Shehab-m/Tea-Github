@@ -7,8 +7,8 @@ import retrofit2.Response
 
 class GithubRepositoryImpl(private val apiService: GitHubApiService): GithubRepository {
 
-    override suspend fun getAccessToken(clientId: String, code: String): String {
-        return wrapResponse{apiService.getAccessToken(clientId,code)}.accessToken ?: ""
+    override suspend fun getAccessToken(code: String): String {
+        return wrapResponse{apiService.getAccessToken(code)}.accessToken ?: ""
     }
 
     private suspend fun <T> wrapResponse(
