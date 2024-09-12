@@ -11,9 +11,11 @@ fun AppNavHost() {
         startDestination = Graph.AUTH
     ) {
         authNavGraph()
+        reposNavGraph()
     }
 }
 
 object Graph {
     const val AUTH = "auth_graph"
+    const val REPOS = "repos_graph"
 }
