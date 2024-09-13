@@ -8,7 +8,12 @@ import com.teacomputers.teagithub.presentation.navigation.Screens
 private val ROUTE = Screens.AuthScreen.route
 
 fun NavController.navigateToAuthScreen() {
-    navigate(ROUTE)
+    navigate(ROUTE) {
+        popUpTo(Screens.SplashScreen.route) {
+            inclusive = true
+        }
+        launchSingleTop = true
+    }
 }
 
 fun NavGraphBuilder.authRoute() {

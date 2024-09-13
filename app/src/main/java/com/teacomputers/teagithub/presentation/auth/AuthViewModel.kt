@@ -18,8 +18,7 @@ class AuthViewModel(
 
     fun onOAuthCallback(intent: Intent) {
         val code = oAuthManager.onOAuthCallback(intent)
-        val accessToken = getAccessToken(code)
-        Log.d("onOAuthCallback: ", "$accessToken")
+        getAccessToken(code)
     }
 
     private fun getAccessToken(code: String?) {
@@ -32,13 +31,12 @@ class AuthViewModel(
     }
 
     private fun onSuccessGetAccessToken(accessToken: String) {
-        Log.d("onSuccessGetAccessToken: ", accessToken)
         sendEffect(AuthUiEffect.NavigateToReposScreen(accessToken))
     }
 
     private fun onError(error: Exception) {
-        updateState { it.copy(isLoading = false) }
         Log.e("onError: ", "${error.message}")
+        updateState { it.copy(isLoading = false) }
         sendEffect(AuthUiEffect.SendToast("Something went wrong. Please try again."))
     }
 
