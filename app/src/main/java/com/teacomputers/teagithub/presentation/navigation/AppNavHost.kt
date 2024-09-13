@@ -8,16 +8,12 @@ fun AppNavHost() {
     val navController = LocalNavigationProvider.current
     NavHost(
         navController = navController,
-        startDestination = Graph.SPLASH
+        startDestination = Graph.APP
     ) {
-        authNavGraph()
-        reposNavGraph()
-        splashNavGraph()
+        appNavGraph()
     }
 }
 
 object Graph {
-    const val AUTH = "auth_graph"
-    const val REPOS = "repos_graph"
-    const val SPLASH = "splash_graph"
+    const val APP = "app_graph"
 }
