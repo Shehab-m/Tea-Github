@@ -35,6 +35,9 @@ class MainActivity : ComponentActivity() {
 
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
-        authViewModel.onOAuthCallback(intent)
+        val data = intent.data
+        if (data != null && data.scheme == "teagithub" && data.host == "callback") {
+            authViewModel.onOAuthCallback(intent)
+        }
     }
 }
