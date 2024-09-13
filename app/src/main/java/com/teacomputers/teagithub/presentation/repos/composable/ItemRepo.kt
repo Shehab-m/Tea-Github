@@ -54,7 +54,7 @@ fun ItemRepo(
                     )
                     Text(
                         text = repo.name,
-                        style = MaterialTheme.typography.bodyLarge,
+                        style = MaterialTheme.typography.labelMedium,
                         color = MaterialTheme.colorScheme.onTertiary,
                         textAlign = TextAlign.Center
                     )
@@ -70,7 +70,7 @@ fun ItemRepo(
                         textAlign = TextAlign.Center
                     )
                     Text(
-                        text = "Private: ${repo.private}",
+                        text = stringResource(R.string.private_label, repo.private),
                         style = MaterialTheme.typography.bodyLarge,
                         color = MaterialTheme.colorScheme.onTertiary,
                         textAlign = TextAlign.Center

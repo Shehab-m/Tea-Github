@@ -17,7 +17,7 @@ class ReposViewModel(
         getRepos(accessToken)
     }
 
-    private fun getRepos(accessToken: String?) {
+    private fun getRepos(accessToken: String) {
         updateState { it.copy(isError = false, isLoading = true) }
         tryToExecute(
             { getReposUseCase(accessToken) },

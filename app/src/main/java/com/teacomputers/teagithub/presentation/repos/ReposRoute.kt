@@ -12,13 +12,12 @@ private val ROUTE = Screens.ReposScreen.route
 
 fun NavController.navigateToReposScreen(accessToken: String?) {
     navigate("$ROUTE/$accessToken") {
-        popUpTo(ROUTE) {
+        popUpTo(graph.startDestinationId) {
             inclusive = true
         }
-        popBackStack()
+        launchSingleTop = true
     }
 }
-
 
 fun NavGraphBuilder.reposRoute() {
     composable(
@@ -26,8 +25,6 @@ fun NavGraphBuilder.reposRoute() {
         arguments = listOf(
             navArgument(ReposArgs.ACCESS_TOKEN) {
                 type = NavType.StringType
-                nullable = true
-                defaultValue = null
             }
         )
     ) {
@@ -36,7 +33,7 @@ fun NavGraphBuilder.reposRoute() {
 }
 
 class ReposArgs(savedStateHandle: SavedStateHandle) {
-    val accessToken: String? = savedStateHandle[ACCESS_TOKEN]
+    val accessToken: String = checkNotNull(savedStateHandle[ACCESS_TOKEN])
 
     companion object {
         const val ACCESS_TOKEN = "accessToken"
