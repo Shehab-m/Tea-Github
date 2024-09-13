@@ -18,6 +18,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -55,16 +56,16 @@ fun TTopBar(
             )
             icon?.let {
                 Icon(
-                    modifier = Modifier.padding(start = 8.dp).size(26.dp),
+                    modifier = Modifier
+                        .padding(start = 8.dp)
+                        .size(26.dp),
                     painter = icon,
-                    contentDescription = "Globe icon",
+                    contentDescription = stringResource(R.string.header_icon),
                     tint = iconColor
                 )
             }
         }
-
     }
-
 }
 
 @OptIn(ExperimentalMaterial3Api::class)

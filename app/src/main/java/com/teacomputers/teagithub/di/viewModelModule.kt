@@ -3,6 +3,7 @@ package com.teacomputers.teagithub.di
 import androidx.lifecycle.SavedStateHandle
 import com.teacomputers.teagithub.presentation.auth.AuthViewModel
 import com.teacomputers.teagithub.presentation.repos.ReposViewModel
+import com.teacomputers.teagithub.presentation.splash.SplashViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
@@ -12,5 +13,8 @@ val viewModelModule = module {
     }
     viewModel { (handle: SavedStateHandle) ->
         ReposViewModel(get(), handle)
+    }
+    viewModel {
+        SplashViewModel(get())
     }
 }

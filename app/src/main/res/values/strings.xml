@@ -8,4 +8,6 @@
     <string name="branch">Branch: %1$s</string>
     <string name="created_at">Created At: %1$s</string>
     <string name="opening_github_for_login">Opening GitHub for login</string>
+    <string name="splash_icon">Splash icon</string>
+    <string name="header_icon">Header Icon</string>
 </resources>
