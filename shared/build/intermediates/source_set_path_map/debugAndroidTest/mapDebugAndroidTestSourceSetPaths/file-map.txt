@@ -1,0 +1,4 @@
+com.teacomputers.shared.test.shared-androidTest-0 D:\work\TeaGithub\shared\build\generated\res\resValues\androidTest\debug
+com.teacomputers.shared.test.shared-mergeDebugAndroidTestResources-1 D:\work\TeaGithub\shared\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.teacomputers.shared.test.shared-mergeDebugAndroidTestResources-2 D:\work\TeaGithub\shared\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.teacomputers.shared.test.shared-debugAndroidTest-3 D:\work\TeaGithub\shared\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

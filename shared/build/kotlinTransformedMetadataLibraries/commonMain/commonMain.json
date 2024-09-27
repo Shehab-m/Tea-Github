@@ -1,0 +1,497 @@
+[
+  {
+    "moduleId": "module io.insert-koin:koin-core:3.6.0-Beta4",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\io.insert-koin-koin-core-3.6.0-Beta4-commonMain-D40HQw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlin:kotlin-stdlib:2.0.20",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.kotlin-kotlin-stdlib-2.0.20-commonMain-WPEnbA.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.runtime:runtime:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.runtime-runtime-1.6.11-commonMain-CVJWAg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.foundation:foundation:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.foundation-foundation-1.6.11-commonMain-dXXsCQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.material:material:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.material-material-1.6.11-commonMain-tGo7Ag.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.ui-ui-1.6.11-commonMain-OrzU9w.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.components:components-resources:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.components-components-resources-1.6.11-blockingMain-44UCqg.klib",
+    "sourceSetName": "blockingMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.components:components-resources:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.components-components-resources-1.6.11-commonMain-44UCqg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.components:components-ui-tooling-preview:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.components-components-ui-tooling-preview-1.6.11-commonMain--i3iSw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-viewmodel:2.8.0",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-2.8.0-commonMain-ydSu5Q.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose:2.8.0",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.lifecycle-lifecycle-runtime-compose-2.8.0-commonMain-mvP4Vw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.insert-koin:koin-compose:1.2.0-Beta4",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\io.insert-koin-koin-compose-1.2.0-Beta4-commonMain-yOsgXQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.insert-koin:koin-compose-viewmodel:1.2.0-Beta4",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\io.insert-koin-koin-compose-viewmodel-1.2.0-Beta4-commonMain-jKScNQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module androidx.lifecycle:lifecycle-viewmodel:2.8.2",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\androidx.lifecycle-lifecycle-viewmodel-2.8.2-commonMain-vv0pmw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.navigation:navigation-compose:2.8.0-alpha02",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.navigation-navigation-compose-2.8.0-alpha02-commonMain-Ynxpsg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-client-core:2.3.12",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\io.ktor-ktor-client-core-2.3.12-commonMain-FU-9lg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-client-content-negotiation:2.3.12",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\io.ktor-ktor-client-content-negotiation-2.3.12-commonMain-jI37cw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-client-auth:2.3.12",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\io.ktor-ktor-client-auth-2.3.12-commonMain-tgNnVQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-client-logging:2.3.12",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\io.ktor-ktor-client-logging-2.3.12-commonMain-grxlVw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-serialization-kotlinx-json:2.3.12",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\io.ktor-ktor-serialization-kotlinx-json-2.3.12-commonMain-sJ8SDA.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module co.touchlab:stately-concurrency:2.0.6",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\co.touchlab-stately-concurrency-2.0.6-commonMain-CAw19g.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module co.touchlab:stately-concurrent-collections:2.0.6",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\co.touchlab-stately-concurrent-collections-2.0.6-commonMain-cAetxQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.animation:animation:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.animation-animation-1.6.11-nativeMain-tpXTFg.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.animation:animation:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.animation-animation-1.6.11-jsNativeMain-5jNXZw.klib",
+    "sourceSetName": "jsNativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.animation:animation:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.animation-animation-1.6.11-commonMain-5jNXZw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.animation:animation-core:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.animation-animation-core-1.6.11-uikitMain-2J6wbg.klib",
+    "sourceSetName": "uikitMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.animation:animation-core:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.animation-animation-core-1.6.11-jsNativeMain-jNz1Aw.klib",
+    "sourceSetName": "jsNativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.animation:animation-core:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.animation-animation-core-1.6.11-jbMain-jNz1Aw.klib",
+    "sourceSetName": "jbMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.animation:animation-core:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.animation-animation-core-1.6.11-commonMain-jNz1Aw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.material:material-icons-core:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.material-material-icons-core-1.6.11-commonMain-XjyzjQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.material:material-ripple:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.material-material-ripple-1.6.11-nativeMain-zsMeyQ.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.material:material-ripple:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.material-material-ripple-1.6.11-commonMain-8kHg7A.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-text:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.ui-ui-text-1.6.11-darwinMain-DK5x5Q.klib",
+    "sourceSetName": "darwinMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-text:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.ui-ui-text-1.6.11-nativeMain-DK5x5Q.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-text:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.ui-ui-text-1.6.11-jsNativeMain-aUvkxg.klib",
+    "sourceSetName": "jsNativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-text:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.ui-ui-text-1.6.11-skikoMain-aUvkxg.klib",
+    "sourceSetName": "skikoMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-text:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.ui-ui-text-1.6.11-commonMain-aUvkxg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.runtime:runtime-saveable:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.runtime-runtime-saveable-1.6.11-commonMain-pCPplQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-geometry:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.ui-ui-geometry-1.6.11-commonMain-zDj2GQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-graphics:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.ui-ui-graphics-1.6.11-nativeMain-M9RlEw.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-graphics:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.ui-ui-graphics-1.6.11-skikoExcludingWebMain-jqr5iw.klib",
+    "sourceSetName": "skikoExcludingWebMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-graphics:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.ui-ui-graphics-1.6.11-jsNativeMain-jqr5iw.klib",
+    "sourceSetName": "jsNativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-graphics:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.ui-ui-graphics-1.6.11-skikoMain-jqr5iw.klib",
+    "sourceSetName": "skikoMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-graphics:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.ui-ui-graphics-1.6.11-commonMain-jqr5iw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-unit:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.ui-ui-unit-1.6.11-jsNativeMain-vwDMdg.klib",
+    "sourceSetName": "jsNativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-unit:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.ui-ui-unit-1.6.11-jbMain-vwDMdg.klib",
+    "sourceSetName": "jbMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-unit:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.ui-ui-unit-1.6.11-commonMain-vwDMdg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-util:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.ui-ui-util-1.6.11-uikitMain-4Hpl6Q.klib",
+    "sourceSetName": "uikitMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-util:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.ui-ui-util-1.6.11-commonMain-LLOBPg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.annotation-internal:annotation:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.annotation-internal-annotation-1.6.11-nonJvmMain-cNNKSA.klib",
+    "sourceSetName": "nonJvmMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.annotation-internal:annotation:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.annotation-internal-annotation-1.6.11-commonMain-cNNKSA.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.kotlinx-kotlinx-coroutines-core-1.8.0-concurrentMain-UxhG-g.klib",
+    "sourceSetName": "concurrentMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.kotlinx-kotlinx-coroutines-core-1.8.0-commonMain-UxhG-g.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-runtime:2.8.0",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.lifecycle-lifecycle-runtime-2.8.0-nativeMain-Cd-IGw.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-runtime:2.8.0",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.lifecycle-lifecycle-runtime-2.8.0-nonJvmMain-Cd-IGw.klib",
+    "sourceSetName": "nonJvmMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-runtime:2.8.0",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.lifecycle-lifecycle-runtime-2.8.0-commonMain-Cd-IGw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0-rc03",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-compose-2.8.0-rc03-commonMain-207ecg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module androidx.annotation:annotation:1.8.0",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\androidx.annotation-annotation-1.8.0-commonMain-PJXh8Q.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.core:core-bundle:1.0.0-rc03",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.core-core-bundle-1.0.0-rc03-nativeMain-cb_PMQ.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.core:core-bundle:1.0.0-rc03",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.core-core-bundle-1.0.0-rc03-jbMain-cb_PMQ.klib",
+    "sourceSetName": "jbMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.core:core-bundle:1.0.0-rc03",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.core-core-bundle-1.0.0-rc03-commonMain-cb_PMQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-common:2.8.0",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.lifecycle-lifecycle-common-2.8.0-nonJvmMain-_oGBew.klib",
+    "sourceSetName": "nonJvmMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-common:2.8.0",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.lifecycle-lifecycle-common-2.8.0-commonMain-_oGBew.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.0-rc03",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-savedstate-2.8.0-rc03-jbMain-KnkPTw.klib",
+    "sourceSetName": "jbMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.0-rc03",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-savedstate-2.8.0-rc03-commonMain-KnkPTw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.navigation:navigation-common:2.8.0-alpha02",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.navigation-navigation-common-2.8.0-alpha02-darwinMain-lKvdpQ.klib",
+    "sourceSetName": "darwinMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.navigation:navigation-common:2.8.0-alpha02",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.navigation-navigation-common-2.8.0-alpha02-nativeMain-ehBiaA.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.navigation:navigation-common:2.8.0-alpha02",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.navigation-navigation-common-2.8.0-alpha02-jbMain-ehBiaA.klib",
+    "sourceSetName": "jbMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.navigation:navigation-common:2.8.0-alpha02",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.navigation-navigation-common-2.8.0-alpha02-commonMain-ehBiaA.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.navigation:navigation-runtime:2.8.0-alpha02",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.navigation-navigation-runtime-2.8.0-alpha02-nonJvmMain-GH9lnw.klib",
+    "sourceSetName": "nonJvmMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.navigation:navigation-runtime:2.8.0-alpha02",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.navigation-navigation-runtime-2.8.0-alpha02-jbMain-GH9lnw.klib",
+    "sourceSetName": "jbMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.navigation:navigation-runtime:2.8.0-alpha02",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.navigation-navigation-runtime-2.8.0-alpha02-commonMain-GH9lnw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.savedstate:savedstate:1.2.0-rc03",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.savedstate-savedstate-1.2.0-rc03-nonJvmMain-xMdm-g.klib",
+    "sourceSetName": "nonJvmMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.savedstate:savedstate:1.2.0-rc03",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.androidx.savedstate-savedstate-1.2.0-rc03-commonMain-xMdm-g.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-http:2.3.12",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\io.ktor-ktor-http-2.3.12-commonMain-W5sIeA.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-events:2.3.12",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\io.ktor-ktor-events-2.3.12-commonMain-Q6-xkw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-websocket-serialization:2.3.12",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\io.ktor-ktor-websocket-serialization-2.3.12-commonMain-8xBQEg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-serialization:2.3.12",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\io.ktor-ktor-serialization-2.3.12-commonMain-NxrIfg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-serialization-kotlinx:2.3.12",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\io.ktor-ktor-serialization-kotlinx-2.3.12-commonMain-s53Slg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.kotlinx-kotlinx-serialization-json-1.5.1-commonMain-xO3r_w.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.foundation:foundation-layout:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.foundation-foundation-layout-1.6.11-uikitMain-BKR0pA.klib",
+    "sourceSetName": "uikitMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.foundation:foundation-layout:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.foundation-foundation-layout-1.6.11-skikoMain-89e7lw.klib",
+    "sourceSetName": "skikoMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.foundation:foundation-layout:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.foundation-foundation-layout-1.6.11-jsNativeMain-89e7lw.klib",
+    "sourceSetName": "jsNativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.foundation:foundation-layout:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.foundation-foundation-layout-1.6.11-commonMain-89e7lw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.collection-internal:collection:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.collection-internal-collection-1.6.11-jsNativeMain-hcu3Ug.klib",
+    "sourceSetName": "jsNativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.collection-internal:collection:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.collection-internal-collection-1.6.11-jbMain-hcu3Ug.klib",
+    "sourceSetName": "jbMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.collection-internal:collection:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.collection-internal-collection-1.6.11-commonMain-hcu3Ug.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:atomicfu:0.23.2",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.kotlinx-atomicfu-0.23.2-nativeMain-yBS35w.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:atomicfu:0.23.2",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.kotlinx-atomicfu-0.23.2-commonMain-yBS35w.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.skiko:skiko:0.8.4",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.skiko-skiko-0.8.4-iosMain-1T2ZCw.klib",
+    "sourceSetName": "iosMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.skiko:skiko:0.8.4",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.skiko-skiko-0.8.4-darwinMain-1T2ZCw.klib",
+    "sourceSetName": "darwinMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.skiko:skiko:0.8.4",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.skiko-skiko-0.8.4-nativeMain-DbI_Jg.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.skiko:skiko:0.8.4",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.skiko-skiko-0.8.4-nativeJsMain-DbI_Jg.klib",
+    "sourceSetName": "nativeJsMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.skiko:skiko:0.8.4",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.skiko-skiko-0.8.4-commonMain-DbI_Jg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-uikit:1.6.11",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.compose.ui-ui-uikit-1.6.11-uikitMain-oguluQ.klib",
+    "sourceSetName": "uikitMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-serialization-core:1.6.2",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\org.jetbrains.kotlinx-kotlinx-serialization-core-1.6.2-commonMain-0z2eOA.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-utils:2.3.12",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\io.ktor-ktor-utils-2.3.12-commonMain-kEcFvw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-websockets:2.3.12",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\io.ktor-ktor-websockets-2.3.12-commonMain-8-9-_g.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-io:2.3.12",
+    "file": "D:\\work\\TeaGithub\\shared\\build\\kotlinTransformedMetadataLibraries\\commonMain\\io.ktor-ktor-io-2.3.12-commonMain-3YsjwQ.klib",
+    "sourceSetName": "commonMain"
+  }
+]
