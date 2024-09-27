@@ -20,5 +20,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Tea Github"
-include(":app")
- 
+include(":androidApp")
+include(":shared")

@@ -10,6 +10,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
+import com.teacomputers.shared.App
 import com.teacomputers.teagithub.presentation.auth.AuthViewModel
 import com.teacomputers.teagithub.presentation.navigation.AppNavHost
 import com.teacomputers.teagithub.presentation.navigation.LocalNavigationProvider
@@ -25,9 +26,10 @@ class MainActivity : ComponentActivity() {
         setContent {
             CompositionLocalProvider(LocalNavigationProvider provides rememberNavController()) {
                 TeaGithubTheme {
-                    Scaffold(modifier = Modifier.fillMaxSize()) {
-                        AppNavHost()
-                    }
+//                    Scaffold(modifier = Modifier.fillMaxSize()) {
+//                        AppNavHost()
+//                    }
+                    App()
                 }
             }
         }

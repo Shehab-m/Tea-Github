@@ -11,4 +11,6 @@
     <string name="splash_icon">Splash icon</string>
     <string name="header_icon">Header Icon</string>
     <string name="private_label">Private: %1$s</string>
+    <string name="battery_level">The current battery level is: </string>
+
 </resources>
